@@ -5,6 +5,10 @@
 #' @import htmlwidgets
 #'
 #' @export
+#'
+
+library(htmlwidgets)
+
 autocomplete <- function(message, width = NULL, height = NULL, elementId = NULL) {
 
   # forward options using x
